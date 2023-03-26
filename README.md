@@ -1,2 +1,2 @@
 # newsletter
-A newsletter App with mailchimp api
+A newsletter app with mailchimp api built on express, request and body-parser
