@@ -1,5 +1,3 @@
-//jshint esversion: 6
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const request = require("request");
@@ -68,12 +66,7 @@ app.post("/", function(req, res){
 app.post("/failure", function(req, res){
     res.redirect("/s")
 })
-app.listen(process.env.PORT || 7000, function(){
-    console.log("Server is running on port 7000");
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Server is running on port 3000");
 });
 
-
-//Api key
-//4a8193e155a3239b90d6c7eea3876c84-us18 
-// List id
-// fe3b12aa99
