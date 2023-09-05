@@ -7,6 +7,7 @@ An app that send newsletter to registered email
 
 - JavaScript
 - Node
+- Express
 - Body-parser
 - Request
 - Require
